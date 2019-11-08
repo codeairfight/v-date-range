@@ -1,0 +1,19 @@
+{
+  "name": "v-date-range",
+  "version": "0.0.1",
+  "description": "Date Range for VuetifyJS",
+  "license": "MIT",
+  "main": "src/index.vue",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve --open --mode local",
+    "build:doc": "vue-cli-service build --dest docs --mode development",
+    "lint": "vue-cli-service lint src example",
+    "prepublishOnly": "npm run lint && npm run test:unit && npm run build:doc && npm run build"
+  },
+  "keywords": [
+    "vue",
+    "vuetify",
+    "date range"
+  ]
+}
