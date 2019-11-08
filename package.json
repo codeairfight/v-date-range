@@ -1,10 +1,18 @@
 {
   "name": "v-date-range",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Date Range for VuetifyJS",
   "license": "MIT",
   "main": "src/index.vue",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeairfight/v-date-range.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codeairfight/v-date-range/issues"
+  },
+  "homepage": "https://github.com/codeairfight/v-date-range",
   "keywords": [
     "vue",
     "vuetify",
